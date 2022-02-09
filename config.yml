@@ -1,0 +1,17 @@
+# data details
+load_path : ./data/pizzeria_tania_data_simplified.csv
+save_path : ./data/df
+target_col : count
+time_col :
+
+# Model paths
+model_path : ./model/
+
+
+# Columns
+auto_identify_data_types : y
+id_cols :
+cat_cols :
+num_cols :
+ts_cols :
+
