@@ -1,0 +1,23 @@
+auto_identify_data_types: y
+cat_cols:
+- IS_WEEKEND
+- IS_HOLIDAY
+- IS_FESTIVE_DATE
+- IS_PRE_FESTIVE_DATE
+- IS_AFTER_FESTIVE_DATE
+- IS_PEOPLE_WEEK_PAYMENT
+- IS_LOW_SEASON
+- AMOUNT_OTHER_OPENED_RESTAURANTS
+id_cols:
+- date
+load_path: ./data/df.csv
+model_path: ./model/
+num_cols:
+- SALES
+- WEATHER_PRECIPITATION
+- WEATHER_TEMPERATURE
+- WEATHER_HUMIDITY
+save_path: ./data/df
+target_col: count
+time_col: date
+ts_cols: []
